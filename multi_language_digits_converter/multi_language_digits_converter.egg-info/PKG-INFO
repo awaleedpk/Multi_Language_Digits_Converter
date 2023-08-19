@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: pyconvertdigits
+Version: 0.0.1
+Summary: It is one of the useful module that can help you to convert English int to other languages
+Home-page: https://github.com/awaleedpk/
+Author: Ahmad Waleed
+Author-email: awaleedpk@gmail.com
+License: UNKNOWN
+Description: multi_language_digits_converter
+        ===================
+        
+        
+        **Multi Language Digits Converter** The Multi Language Digits Converter allows you to convert digits between different languages including Bangla, Hindi, Urdu, Malayalam, Thai, Arabic & etc. 
+        
+        ----------
+        
+        Features
+        ===================
+        
+        > - Conver English int to other languages and return a string
+        
+        Install
+        ===================
+        We recommend install pyconvertdigits through pip install using Python 3.
+        
+        > $ pip install multi_language_digits_converter
+        
+        Example
+        ===================
+        
+        To see available languages:
+        
+			import multi_language_digits_converter
+			convertDigits = multi_language_digits_converter.conDigits()
+			languages = convertDigits.available()
+			print(languages)
+			
+
+            #output: ['Bangla', 'Hindi', 'Urdu', 'Malayalam', 'Thai', 'Arabic', 'Farsi', 'Japanese', 'Korean', 'Telugu', 'Tamil', 'Russian', 'Greek', 'Hebrew']
+        To convert English to other languages:
+        
+            import pyconvertdigits
+            convertDigits = pyconvertdigits.conDigits()
+        
+			converted_japanese = convertDigits.to_japanese(1234567890)
+			print(converted_japanese)
+
+			 = convertDigits.to_urdu(1234567890)
+			print(converted_urdu)
+
+			converted_hindi = convertDigits.to_hindi(1234567890)
+			print(converted_hindi)
+		
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,7 @@
+README.md
+setup.py
+pyconvertdigits/__init__.py
+pyconvertdigits.egg-info/PKG-INFO
+pyconvertdigits.egg-info/SOURCES.txt
+pyconvertdigits.egg-info/dependency_links.txt
+pyconvertdigits.egg-info/top_level.txt
