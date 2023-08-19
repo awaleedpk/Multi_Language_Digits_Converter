@@ -34,7 +34,7 @@ The `conDigits` module provides a class for converting numeric digits from Engli
 You can simply clone this GitHub repository to use the module:
 
 ```bash
-git clone https://github.com/your-username/multi-language-digits-converter.git
+git clone https://github.com/awaleedpk/multi-language-digits-converter.git
 ```
 # How to Import multi_language_digits_converter
 ```
