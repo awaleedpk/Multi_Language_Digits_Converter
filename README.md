@@ -32,7 +32,6 @@ The `conDigits` module provides a class for converting numeric digits from Engli
 ## Installation
 
 You can simply clone this GitHub repository to use the module:
-
 ```bash
 git clone https://github.com/awaleedpk/multi-language-digits-converter.git
 ```
