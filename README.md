@@ -53,8 +53,8 @@ converted_japanese = convertDigits.to_japanese(1234567890)
 print(converted_japanese)
 
 converted_urdu = convertDigits.to_urdu(1234567890)
-print(converted_japanese)
+print(converted_urdu)
 
 converted_hindi = convertDigits.to_hindi(1234567890)
-print(converted_japanese)
+print(converted_hindi)
 ```
