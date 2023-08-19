@@ -1,0 +1,87 @@
+title: Multi Language Digits Converter
+
+description: |-
+  The **Multi Language Digits Converter** is a Python module that allows you to convert digits between different languages including Bangla, Hindi, Urdu, Malayalam, Thai, Arabic, and Farsi. This module provides methods to easily convert digits from one language to another.
+  The `conDigits` module provides a class for converting numeric digits from English to various languages. It supports a wide range of languages and numeral systems, allowing you to easily convert numbers into different scripts and representations.
+
+features:
+  - Converts digits between different languages
+  - Simple and easy-to-use methods for digit conversion.
+
+languages:
+  - name: Bangla
+    code: to_bangla
+    script: বাংলা
+  - name: Hindi
+    code: to_hindi
+    script: हिन्दी
+  - name: Urdu
+    code: to_urdu
+    script: اُردو
+  - name: Malayalam
+    code: to_malayalam
+    script: മലയാളം
+  - name: Thai
+    code: to_thai
+    script: ไทย
+  - name: Arabic
+    code: to_arabic
+    script: العربية
+  - name: Farsi
+    code: to_farsi
+    script: فارسی
+  - name: Japanese
+    code: to_japanese
+    script: 日本語
+  - name: Korean
+    code: to_korean
+    script: 한국어
+  - name: Telugu
+    code: to_telugu
+    script: తెలుగు
+  - name: Tamil
+    code: to_tamil
+    script: தமிழ்
+  - name: Greek
+    code: to_greek
+    script: Ελληνικά
+  - name: Hebrew
+    code: to_hebrew
+    script: עִבְרִית
+  - name: Georgian
+    code: to_georgian
+    script: ქართული
+  - name: Armenian
+    code: to_armenian
+    script: հայերեն
+  - name: Amharic
+    code: to_amharic
+    script: አማርኛ
+  - name: Nepali
+    code: to_nepali
+    script: नेपाली
+  - name: Sinhala
+    code: to_sinhala
+    script: සිංහල
+  - name: Mongolian
+    code: to_mongolian
+    script: Монгол
+
+installation: |-
+  pip install multi-language-digits-converter
+
+import_usage: |-
+  import multi_language_digits_converter
+  convertDigits = multi_language_digits_converter.conDigits()
+
+get_languages: |-
+  languages = convertDigits.available()
+  print(languages)
+
+convert_numbers: |-
+  converted_japanese = convertDigits.to_japanese(1234567890)
+  print(converted_japanese)
+  converted_urdu = convertDigits.to_urdu(1234567890)
+  print(converted_urdu)
+  converted_hindi = convertDigits.to_hindi(1234567890)
+  print(converted_hindi)
